@@ -1,16 +1,15 @@
-import React from "react";
-import { Header, Main, Footer } from "./components";
+import React from 'react'
+import { Layout } from './components/index'
+import { Footer, Header, Main, Digits } from './components/index'
 
-
-function App() {
-  return (
-    <div className="EcommApp">
-      <Header />
-      <Main>
-      </Main>
-      <Footer />
-    </div>
-  );
+const CounterApp = () => {
+   return (
+      <div className="Counter-main">
+         <Header />
+         <Layout />
+         <Footer />
+      </div>
+   )
 }
 
-export default App;
+export default CounterApp

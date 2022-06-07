@@ -1,22 +1,15 @@
-.Footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color: white;
-   text-align: center;
-   background-color: brown;
-}
-
-
 :root {
    --mouse-x: 0;
    --mouse-y: 0;
 }
 
 .container-counter {
-   display: flexbox;
+   display: flex;
+   background-color: black;
    flex-direction: row;
+   justify-content: center;
+   height: 28vh;
+   width: 100vw;
 }
 
 .digit-container {
@@ -38,6 +31,7 @@
 .digit,
 .digit:after,
 .digit:before {
+   margin-top: 20%;
    transition: transform 1s cubic-bezier(0.5, 0, 0.5, 1);
 }
 @keyframes pulse {
@@ -279,11 +273,11 @@
    content: '';
    display: block;
    position: absolute;
-   color: #fd0b0b;
-   background: white;
+   color: #ffffff;
+   background: rgba(247, 202, 202, 0.95);
    transition: all 0.9s cubic-bezier(0.5, 0, 0.5, 1);
    border-radius: 1ch;
-   box-shadow: 0 0 1rem #fd0b0b, inset 0 0 0.125vmin #fd0b0b;
+   box-shadow: 0 0 1rem #ff0000, inset 0 0 0.125vmin #000000fb;
 }
 
 .line:after {
@@ -379,6 +373,3 @@
    content: '';
    display: block;
 }
-
-
-
