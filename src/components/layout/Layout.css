@@ -1,0 +1,15 @@
+div {
+   -webkit-animation: fadeIn 0.5s forwards;
+   animation: fadeIn 0.5s forwards;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+   font-family: Open Sans;
+}
+
+.container-buttons {
+   padding: 60px;
+   display: flex;
+   flex-direction: row;
+}
